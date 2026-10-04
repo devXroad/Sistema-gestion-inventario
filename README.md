@@ -55,12 +55,14 @@ Creé una clase padre llamada `Usuario` y dos clases hijas que heredan de ella: 
 * Si inicias sesión como **Usuario Normal**, el menú principal se adapta a ti (te muestra 4 opciones y te oculta todo el panel de administración).
 * Si inicias sesión como **Administrador**, el menú te muestra las 6 opciones completas.
 
-![Ejemplo de menús de cada tipo de usuario](capturas/4_menus.png)
+![Ejemplo de menú Admin](capturas/4_menus_admin.png)
+![Ejemplo de menú Usuario](capturas/4_menus_user.png)
 *Ejemplo de menús de cada tipo de usuario*
 
 Para que no hagan trampas, si un usuario normal teclea un 5 o un 6 (las opciones ocultas de admin), el sistema le suelta “Opción no válida”. También he puesto cuidado en que si el admin da de baja a alguien, ese usuario ya no pueda volver a entrar, y que un admin no se pueda autoborrar por error.
 
-![Ejemplo de dar de baja a un usuario e intentar iniciar sesion con él](capturas/5_baja_usuario.png)
+![Ejemplo de dar de baja a un usuario](capturas/5_baja_accion.png)
+![Ejemplo de intentar iniciar sesión con él](capturas/5_baja_error.png)
 *Ejemplo de dar de baja a un usuario e intentar iniciar sesión con él*
 
 ---
